@@ -1,0 +1,52 @@
+.yeseva {
+  font-family: 'Yeseva One', cursive;
+}
+
+.josefin {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.custom-bg-color {
+  background-color: #c3ced1;
+}
+
+@media all and (max-width: 767px) {
+  .mobile-height-10 {
+    height: 10vh !important;
+  }
+  .mobile-height-20 {
+    height: 20vh !important;
+  }
+  .mobile-height-30 {
+    height: 30vh !important;
+  }
+  .mobile-height-40 {
+    height: 40vh !important;
+  }
+  .mobile-height-50 {
+    height: 50vh !important;
+  }
+  .mobile-height-60 {
+    height: 60vh !important;
+  }
+  .mobile-height-70 {
+    height: 70vh !important;
+  }
+  .mobile-height-80 {
+    height: 80vh !important;
+  }
+  .mobile-height-90 {
+    height: 90vh !important;
+  }
+  .mobile-height-100 {
+    height: 100vh !important;
+  }
+
+  .main-cover .main-title  {
+    font-size: 3.5em;
+  }
+
+  .main-cover .main-lead  {
+    font-size: 1.3em;
+  }
+}
