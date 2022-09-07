@@ -6,7 +6,7 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 
-.custom-bg-color {
+body, .custom-bg-color {
   background-color: #c3ced1;
 }
 
@@ -48,5 +48,9 @@
 
   .main-cover .main-lead  {
     font-size: 1.3em;
+  }
+
+  .pt-xs-3 {
+    padding-top: 3rem !important;
   }
 }
