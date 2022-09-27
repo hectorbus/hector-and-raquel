@@ -1,16 +1,45 @@
 .yeseva {
-  font-family: 'Yeseva One', cursive;
+  font-family: 'Yeseva One', cursive !important;
+  color: #321816;
 }
 
 .josefin {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif !important;
 }
 
 body, .custom-bg-color {
   background-color: #c3ced1;
 }
 
+h1 {
+  color: #321816 !important;
+}
+
+a {
+  color: #6F3E3A !important
+}
+
+#info {
+  margin: 60px auto;
+  font-family: 'Josefin Sans', sans-serif !important;
+}
+
+#info i.icon {
+  color: #6F3E3A !important
+}
+
+#info h5 {
+  color: #6F3E3A !important;
+  font-family: 'Josefin Sans', sans-serif !important;
+  font-size: 1.3em;
+  margin-top: 16px;
+}
+
 @media all and (max-width: 767px) {
+  #info {
+    margin: 40px auto;
+  }
+
   .mobile-height-10 {
     height: 10vh !important;
   }
