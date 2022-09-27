@@ -8,19 +8,24 @@
 }
 
 body, .custom-bg-color {
-  background-color: #c3ced1;
-}
-
-h1 {
-  color: #321816 !important;
+  background-color: #CADFE7;
 }
 
 a {
   color: #6F3E3A !important
 }
 
+#start h1 {
+  color: #321816 !important;
+}
+
+#start h2 {
+  font-family: 'Josefin Sans', sans-serif !important;
+  font-weight: lighter;
+}
+
 #info {
-  margin: 60px auto;
+  margin: 85px auto;
   font-family: 'Josefin Sans', sans-serif !important;
 }
 
