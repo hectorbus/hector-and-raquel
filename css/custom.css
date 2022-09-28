@@ -1,11 +1,4 @@
-.yeseva {
-  font-family: 'Yeseva One', cursive !important;
-  color: #321816;
-}
-
-.josefin {
-  font-family: 'Josefin Sans', sans-serif !important;
-}
+html, body {overflow-x: hidden !important;width: 100vw !important;}
 
 body, .custom-bg-color {
   background-color: #CADFE7;
@@ -15,8 +8,36 @@ a {
   color: #6F3E3A !important
 }
 
+.yeseva {
+  font-family: 'Yeseva One', cursive !important;
+  color: #321816;
+}
+
+.josefin {
+  font-family: 'Josefin Sans', sans-serif !important;
+}
+
+#start section {
+  padding-top: 5%;
+}
+
+#start picture {
+  display: block;
+  max-width: 100%;
+  max-height: 120px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+#start picture img, footer picture img {
+  width: 100%;
+  filter: gray;
+  filter: grayscale(0.5);
+  -webkit-filter: grayscale(0.5);
+}
+
 #start h1 {
-  color: #321816 !important;
+  color: #59312D !important;
 }
 
 #start h2 {
@@ -25,7 +46,7 @@ a {
 }
 
 #info {
-  margin: 85px auto;
+  margin: 85px auto 0;
   font-family: 'Josefin Sans', sans-serif !important;
 }
 
@@ -40,9 +61,22 @@ a {
   margin-top: 16px;
 }
 
-@media all and (max-width: 767px) {
+@media (max-width: 767px) {
+  #start picture {
+    max-height: 30px;
+  }
+
   #info {
-    margin: 40px auto;
+    margin: 40px auto 0;
+  }
+
+  footer picture img {
+    margin-bottom: 20px !important;
+    transform: scale(2);
+    -moz-transform: scale(2);
+    -webkit-transform: scale(2);
+    -o-transform: scale(2);
+    -ms-transform: scale(2);
   }
 
   .mobile-height-10 {
@@ -86,5 +120,20 @@ a {
 
   .pt-xs-3 {
     padding-top: 3rem !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  #start section {
+    padding-top: 2%;
+  }
+
+  footer picture img {
+    margin-bottom: 15px;
+    transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
   }
 }
