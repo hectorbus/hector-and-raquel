@@ -6,7 +6,7 @@
 }
 
 html, body {
-  background-color: var(--light-blue);
+  background-color: var(--low-grad);
   overflow-x: hidden !important;
   width: 100% !important;
 }
@@ -54,8 +54,7 @@ h5, a, i.icon {
 }
 
 #gallery section{
-  margin-top: 50px;
-  padding-top: 30px;
+  padding-top: 80px;
   padding-bottom: 0;
 }
 
@@ -81,6 +80,9 @@ h5, a, i.icon {
   font-family: 'Josefin Sans', sans-serif !important;
 }
 
+.light--blue {
+  background-color: var(--light-blue);
+}
 
 .imagebg {
   width: 100%;
@@ -102,10 +104,6 @@ h5, a, i.icon {
 @media (max-width: 767px) {
   section.cover {
     padding-top: 50px !important;
-  }
-
-  #gallery {
-    margin-top: 15px;
   }
 
   #info {
