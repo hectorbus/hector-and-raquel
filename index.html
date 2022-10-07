@@ -52,11 +52,11 @@
 <body>
 
   <div id="start" class="main-container">
-    <section class="cover custom-bg-color text-center unpad--bottom">
+    <section class="cover text-center unpad--bottom">
       <div class="container">
         <div class="row mb-3">
           <div class="col-md-12">
-            <div class="col-md-12">
+            <div class="col-md-12 above mb-4 mb-sm-5">
               <h1 class="main-title h1--large yeseva">
                 Héctor &amp; Raquel
               </h1>
@@ -67,12 +67,17 @@
           </div>
         </div>
         <div class="row justify-content-center my-5 pb-md-5 pb-xs-3">
-          <div class="col-md-12 col-lg-10">
-            <img class="border--round box-shadow-wide" alt="Image" src="img/hector_and_raquel-1.jpg">
+          <div class="col-12 col-lg-10 text-center">
+            <div class="row justify-content-center ">
+              <div class="col-12 bellow flowers"></div>
+            </div>
+            <div class="box-shadow-wide">
+              <img alt="Hector & Raquel, Febrero 5, 2023" src="img/hector_and_raquel-1.jpg">
+            </div>
           </div>
         </div>
         <div class="row my-3 my-md-3">
-          <div class="col-10">
+          <div class="col-10 mt-3">
             <h2>
               <span class="countdown" data-date="02/5/2023"
                 data-date-format="Faltan %D días para unir nuestras vidas en matrimonio, acompáñanos a celebrar esta importante fecha con nosotros."
@@ -94,27 +99,29 @@
     </section>
   </div>
 
-  <section id="gallery" class="container">
-    <div class="masonry">
-      <div class="masonry__container masonry--active" style="position: relative; height: 635.052px;">
-        <div class="col-md-4 masonry__item" style="position: absolute; left: 0px; top: 0px;">
-          <img alt="pic" src="img/hector_and_raquel-6.jpg" class="box-shadow-wide">
-        </div>
-        <div class="col-md-4 masonry__item hide-for-mobile" style="position: absolute;left: 375px;top: 0;">
-          <img alt="pic" src="img/hector_and_raquel-8.jpg" class="box-shadow-wide">
-        </div>
-        <div class="col-md-4 masonry__item" style="position: absolute;left: 750px;top: 0px;">
-          <img alt="pic" src="img/hector_and_raquel-5.jpg" class="box-shadow-wide">
-        </div>
-        <div class="col-md-4 masonry__item" style="position: absolute;left: 0px;top: 255px;">
-          <img alt="pic" src="img/hector_and_raquel-3.jpg" class="box-shadow-wide">
-        </div>
-        <div class="col-md-4 masonry__item hide-for-mobile" style="position: absolute;left: 750px;top: 255px;">
-          <img alt="pic" src="img/hector_and_raquel-7.jpg" class="box-shadow-wide">
+  <div id="gallery">
+    <section class="container">
+      <div class="masonry">
+        <div class="masonry__container masonry--active" style="position: relative; height: 635.052px;">
+          <div class="col-md-4 masonry__item" style="position: absolute; left: 0px; top: 0px;">
+            <img alt="Hector & Raquel, Febrero 5, 2023" src="img/hector_and_raquel-6.jpg" class="box-shadow-wide">
+          </div>
+          <div class="col-md-4 masonry__item hide-for-mobile" style="position: absolute;left: 375px;top: 0;">
+            <img alt="Hector & Raquel, Febrero 5, 2023" src="img/hector_and_raquel-8.jpg" class="box-shadow-wide">
+          </div>
+          <div class="col-md-4 masonry__item" style="position: absolute;left: 750px;top: 0px;">
+            <img alt="Hector & Raquel, Febrero 5, 2023" src="img/hector_and_raquel-5.jpg" class="box-shadow-wide">
+          </div>
+          <div class="col-md-4 masonry__item" style="position: absolute;left: 0px;top: 255px;">
+            <img alt="Hector & Raquel, Febrero 5, 2023" src="img/hector_and_raquel-3.jpg" class="box-shadow-wide">
+          </div>
+          <div class="col-md-4 masonry__item hide-for-mobile" style="position: absolute;left: 750px;top: 255px;">
+            <img alt="Hector & Raquel, Febrero 5, 2023" src="img/hector_and_raquel-7.jpg" class="box-shadow-wide">
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 
   <div id="info" class="container">
     <div class="row">
@@ -130,15 +137,17 @@
         </div>
       </div>
       <div class="col-6 col-md-4 text-center">
-        <div class="feature feature-6">
-          <i class="icon icon--md icon-Map2"></i>
-          <h5>Lugar</h5>
-          <p>
-            <a href="https://goo.gl/maps/axuVfWzZn3EV3AF59" target="_blank" rel="noreferrer">Casino de Chihuahua</a></br>
-            Aldama 412, Col. Centro,</br>
-            Chihuahua, Chih.
-          </p>
-        </div>
+        <a href="https://goo.gl/maps/axuVfWzZn3EV3AF59" target="_blank" rel="noreferrer">
+          <div class="feature feature-6">
+            <i class="icon icon--md icon-Map2"></i>
+            <h5>Lugar</h5>
+            <p>
+              <a href="https://goo.gl/maps/axuVfWzZn3EV3AF59" target="_blank" rel="noreferrer">Casino de Chihuahua</a></br>
+              Aldama 412, Col. Centro,</br>
+              Chihuahua, Chih.
+            </p>
+          </div>
+        </a>
       </div>
       <div class="col-xs-12 col-md-4 mt-0 text-center">
         <div class="feature feature-6">
@@ -152,26 +161,28 @@
     </div>
   </div>
 
-  <section id="story" class="cover height-40 imagebg text-center" data-overlay="6">
-    <div class="background-image-holder" style="background: url(&quot;img/hector_and_raquel-2.jpg&quot;); opacity: 1;">
-      <img alt="background" src="img/hector_and_raquel-2.jpg">
-    </div>
-    <div class="container pos-vertical-center">
-      <div class="row">
-        <div class="col-md-12">
-          <p class="lead text-center">
-            El 22 de febrero de 2021, Dios decidió que era el tiempo para conocernos, el momento específico, donde el
-            tiempo cambio y dejo de girar a la misma velocidad, en donde parecía eterno cuando volveríamos a vernos,
-            después de un adiós.
-          </p>
-          <p class="lead text-center">
-            La lejanía parecía nuestro enemigo, pero Dios lo hizo nuestro aliado, ahora nos complace saber que no habrá
-            más distancia, donde valió la pena la espera y habrá nuevas historias por contar.
-          </p>
+  <div id="story" >
+    <section class="cover height-40 imagebg text-center" data-overlay="6">
+      <div class="background-image-holder" style="background: url(&quot;img/hector_and_raquel-2.jpg&quot;); opacity: 1;">
+        <img alt="Hector & Raquel, Febrero 5, 2023" src="img/hector_and_raquel-2.jpg">
+      </div>
+      <div class="container pos-vertical-center">
+        <div class="row">
+          <div class="col-md-12">
+            <p class="lead text-center">
+              El 22 de febrero de 2021, Dios decidió que era el tiempo para conocernos, el momento específico, donde el
+              tiempo cambio y dejo de girar a la misma velocidad, en donde parecía eterno cuando volveríamos a vernos,
+              después de un adiós.
+            </p>
+            <p class="lead text-center">
+              La lejanía parecía nuestro enemigo, pero Dios lo hizo nuestro aliado, ahora nos complace saber que no habrá
+              más distancia, donde valió la pena la espera y habrá nuevas historias por contar.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 
   <div id="gifts">
     <section class="switchable feature-large ">
@@ -179,14 +190,14 @@
         <div class="row justify-content-around">
           <div class="imagebg mx-3 mx-sm-0 border--round box-shadow-wide hide-for-mobile" data-overlay="1">
             <div class="background-image-holder" style="background: url(&quot;img/hector_and_raquel-4.jpg&quot;); opacity: 1;">
-              <img alt="background" src="img/hector_and_raquel-4.jpg">
+              <img alt="Hector & Raquel, Febrero 5, 2023" src="img/hector_and_raquel-4.jpg">
             </div>
           </div>
           <div class="col-md-7">
             <div class="switchable__text">
               <h2>Mesa de Regalos</h2>
               <div class="border--round box-shadow-wide hide-for-desktop" data-overlay="1">
-                <img class="border--round box-shadow-wide" alt="Image" src="img/hector_and_raquel-4.jpg">
+                <img class="border--round box-shadow-wide" alt="Hector & Raquel, Febrero 5, 2023" src="img/hector_and_raquel-4.jpg">
               </div>
               <p class="lead pr-0 pr-md-4">
                 Más allá de estos detalles, el mejor regalo será contar con su presencia y buenos deseos. Pero en caso de desear dar un obsequio, puede ser de las siguientes maneras.
@@ -198,10 +209,10 @@
                       <i class="icon icon--md icon-Money"></i>
                       <h5>Deposito Bancario</h5>
                       <p>
+                        <b>BANCO</b>: BBVA</br>
                         <b>CUENTA</b>: 151 077 3146</br>
                         <b>CLABE</b>: 0121 8001 5107 731463</br>
                         <b>NOMBRE</b>: Raquel Areli Delgado Tapia</br>
-                        <b>BANCO</b>: BBVA</br>
                       </p>
                     </div>
                   </div>
@@ -225,7 +236,31 @@
     </section>
   </div>
 
-  <footer class="footer-7 text-center custom-bg-color">
+  <div id="confirmation">
+    <section class="pt-auto pt-md-5 text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-lg-6">
+            <div class="cta">
+              <h2>Confirma tu asistencia</h2>
+              <p class="lead">
+                Por motivos de organizacion, le pedimos a nuestros invitados confirmar su asistencia <b>antes del 20 de Diciembre</b>.
+              </p>
+              <a class="btn type--uppercase josefin"  href="https://api.whatsapp.com/send?phone=5213319581507&text=%C2%A1Hola%21+%E2%9C%8C%F0%9F%8F%BB%0D%0A%0D%0AQuiero+confirmar+mi+asistencia+para+la+boda+de+Hector+y+Raquel+%F0%9F%A4%8D%0D%0A%0D%0ANombre%2Fs+de+los+asistentes%3A" target="_blank" rel="noreferrer">
+                <span class="btn__text">
+                  Confirmar
+                </span>
+              </a>
+              <p class="type--fine-print">Gracias.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer class="footer-7 text-center">
     <div class="container">
       <div class="row">
         <div class="col-md-12">

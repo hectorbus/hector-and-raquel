@@ -1,19 +1,27 @@
+:root {
+  --light-blue: #CADFE7;
+  --hard-cherry: #59312D;
+  --light-cherry: #6F3E3A;
+  --low-grad: #F0FAF9;
+}
+
 html, body {
+  background-color: var(--light-blue);
   overflow-x: hidden !important;
   width: 100% !important;
 }
 
-body, .custom-bg-color {
-  background-color: #CADFE7;
+footer {
+  background-color: var(--low-grad);
 }
 
 h1 {
-  color: #59312D !important;
+  color: var(--hard-cherry) !important;
   font-family: 'Yeseva One', cursive !important;
 }
 
 h2 {
-  color: #59312D !important;
+  color: var(--hard-cherry) !important;
   font-family: 'Josefin Sans', sans-serif !important;
   font-weight: lighter;
   margin-top: 16px;
@@ -24,10 +32,28 @@ h5 {
 }
 
 h5, a, i.icon {
-  color: #6F3E3A !important
+  color: var(--light-cherry) !important
 }
 
-#gallery {
+#start {
+  background: linear-gradient(180deg, var(--low-grad) 0%, var(--light-blue) 100%);
+}
+
+#start .flowers {
+  background-image: url(../img/flowers.png);
+  background-size: 100% 100%;
+  position: absolute;
+  top: -13.6%;
+  right: -8.7%;
+  width: 120%;
+  height: 130%;
+  max-width: 120%;
+  filter: grayscale(65%);
+  -webkit-filter: grayscale(65%);
+  -moz-filter: grayscale(65%);
+}
+
+#gallery section{
   margin-top: 50px;
   padding-top: 30px;
   padding-bottom: 0;
@@ -37,9 +63,24 @@ h5, a, i.icon {
   margin: 75px auto 55px;
 }
 
-.josefin, #info, #story {
+#confirmation {
+  background: var(--light-blue);
+  background: linear-gradient(180deg, var(--light-blue) 0%, var(--low-grad) 100%);
+}
+
+#confirmation .btn {
+  background-color: var(--light-cherry);
+  letter-spacing: .8px;
+}
+
+#confirmation .btn__text {
+  color: var(--light-blue) !important;
+}
+
+.josefin, #info, #story, #confirmation {
   font-family: 'Josefin Sans', sans-serif !important;
 }
+
 
 .imagebg {
   width: 100%;
@@ -50,7 +91,19 @@ h5, a, i.icon {
   display: none;
 }
 
+.above {
+  z-index: 9999 !important;
+}
+
+.bellow {
+  z-index: 10 !important;
+}
+
 @media (max-width: 767px) {
+  section.cover {
+    padding-top: 50px !important;
+  }
+
   #gallery {
     margin-top: 15px;
   }
@@ -59,7 +112,7 @@ h5, a, i.icon {
     margin: 40px auto 45px;
   }
 
-  #story .lead {
+  #story .lead, #confirmation .lead {
     font-size: 1.15em;
   }
 
