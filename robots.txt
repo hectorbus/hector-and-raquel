@@ -1,0 +1,12 @@
+User-agent: *
+Disallow:/
+Disallow: /img/favicon-32x32.png
+Disallow: /img/flowers.png
+Disallow: /img/hector_and_raquel-1.jpg
+Disallow: /img/hector_and_raquel-2.jpg
+Disallow: /img/hector_and_raquel-3.jpg
+Disallow: /img/hector_and_raquel-4.jpg
+Disallow: /img/hector_and_raquel-5.jpg
+Disallow: /img/hector_and_raquel-6.jpg
+Disallow: /img/hector_and_raquel-7.jpg
+Disallow: /img/hector_and_raquel-8.jpg
