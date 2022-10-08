@@ -24,13 +24,13 @@ const set_sizes = (window) => {
   } else if (window.width() <= 1181 && window.width() >= 560) {
     $top.css({ left: -calc/2, width: window.width() + calc});
 
-    $left.css({ left: -calc/4, top: calc/7 });
-    $right.css({ right: -calc/4, top: calc/7 });
+    $left.css({ left: -calc/5, top: calc/7 });
+    $right.css({ right: -calc/5, top: calc/7 });
   } else if (window.width() <= 559) {
     $top.css({ left: -calc/2, width: window.width() + calc});
 
-    $left.css({ left: -235.25, top: -156.833 });
-    $right.css({ right: -235.25, top: -156.833 });
+    $left.css({ left: -188, top: -45 });
+    $right.css({ right: -188, top: -135 });
   } else {
     $top.css({ left: 0, width: window.width()});
 

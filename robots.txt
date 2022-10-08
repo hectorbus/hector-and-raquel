@@ -1,7 +1,9 @@
 User-agent: *
 Disallow:/
 Disallow: /img/favicon-32x32.png
-Disallow: /img/flowers.png
+Disallow: /img/greenery-top.png
+Disallow: /img/greenery-left.png
+Disallow: /img/greenery-right.png
 Disallow: /img/hector_and_raquel-1.jpg
 Disallow: /img/hector_and_raquel-2.jpg
 Disallow: /img/hector_and_raquel-3.jpg
