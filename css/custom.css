@@ -35,22 +35,41 @@ h5, a, i.icon {
   color: var(--light-cherry) !important
 }
 
-#start {
-  background: linear-gradient(180deg, var(--low-grad) 0%, var(--light-blue) 100%);
+.greenery {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
 }
 
-#start .flowers {
-  background-image: url(../img/flowers.png);
-  background-size: 100% 100%;
+.greenery img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  display: none;
+}
+
+
+.greenery-top {
   position: absolute;
-  top: -13.6%;
-  right: -8.7%;
-  width: 120%;
-  height: 130%;
-  max-width: 120%;
-  filter: grayscale(65%);
-  -webkit-filter: grayscale(65%);
-  -moz-filter: grayscale(65%);
+  width: 100%;
+  max-width: none !important;
+  top: 0;
+}
+
+.greenery-left {
+  position: absolute;
+  left: 0;
+}
+
+.greenery-right {
+  position: absolute;
+  right: 0;
+}
+
+#start {
+  background: linear-gradient(180deg, var(--low-grad) 0%, var(--light-blue) 100%);
 }
 
 #gallery section{
